@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: batch-stats
+  mvc:
+    problemdetails:
+      enabled: true
+
+batch-stats:
+  max-numbers-per-request: 10000
